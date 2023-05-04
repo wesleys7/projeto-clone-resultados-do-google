@@ -1,0 +1,603 @@
+*{
+    font-family: arial;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    margin-top: 20px;
+    height:65px;
+
+}
+.container-top {
+    display:flex;
+    justify-content: space-between;
+    height: 95px;
+}
+.box-logo {
+    margin-left: 65px;
+    flex:1;
+
+}
+.logogoogle {
+    margin-top: 10px;
+    width: 90px;
+}
+
+.box-search {
+    flex:10;
+    width: 700px;
+    padding: 20px;
+   
+    
+    
+}
+.search-bar {
+    display: flex;
+    width: 695px;
+    height: 50px;
+    border: 1px solid #dfe1e5;
+    border-radius: 50px;
+    justify-content: space-between;
+    box-shadow: 0px 3px 5px #f3f3f3;
+}
+.search-bar:hover{
+    box-shadow: 0px 3px 5px #c7c7c7;
+}
+
+input[type=text] {
+    flex:1;
+    width: 450px;
+    height: 45px;
+    font-size: 17px;
+    margin-left: 20px;
+    border: none;
+    outline: 0;
+   
+    
+}
+.search-icons {
+    flex:1;
+    margin: 10px;
+    margin-top: 12px;
+    display: block;
+}
+.xis {
+    margin: 8px;    
+}
+.close {
+    margin-top: 2px;
+    width: 30px;
+    
+}
+.left-border {
+    height: 25px;
+    margin-top: 12px;    
+    display: inline-block;
+    border-left: 1px solid #ccc;
+}
+
+.keyboard {
+    
+    margin-left: 10px;
+    width: 25px;
+}
+.micgoogle{
+    
+    height: 25px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.Ggoogle {
+    
+    height: 23px;
+    margin-right: 12px;
+}
+.lupa-icon {
+    margin: 0px;
+    width: 25px;
+
+}
+
+/* começa aqui*/
+
+.box-objects {
+    flex: 1;
+}
+
+
+.objects-banner {
+    display: flex;
+    margin-right: 20px;
+    margin-top: 25px;
+    float:right;
+}
+
+.google-apps {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+}
+.google-apps:hover {
+    position: relative;
+    background-color: #f0f0f0;
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+}
+.box {
+    display: flex;
+    justify-content:space-between;
+    flex-wrap: wrap;
+    width: 19px;
+    height: 18px;
+    position: absolute;
+    top: 50%;
+    left: 51%;
+    transform: translate(-50%,-50%);
+}
+
+.b1 {
+    margin-right: 1px;
+    background-color: #73777b;
+    height: 4px;
+    width: 4px;
+    border-radius: 2px;
+}
+
+.b2 {
+    margin-right: 1px;
+    background-color: #73777b;
+    height: 4px;
+    width: 4px;
+    border-radius: 2px;
+}
+
+.b3 {
+    margin-right: 1px;
+    background-color: #73777b;
+    height: 4px;
+    width: 4px;
+    border-radius: 2px;
+}
+
+.b4 {
+    margin-right: 1px;
+    background-color: #73777b;
+    height: 4px;
+    width: 4px;
+    border-radius: 2px;
+}
+
+.b5 {
+    margin-right: 1px;
+    background-color: #73777b;
+    height: 4px;
+    width: 4px;
+    border-radius: 2px;
+}
+.b6 {
+    margin-right: 1px;
+    background-color: #73777b;
+    height: 4px;
+    width: 4px;
+    border-radius: 2px;
+}
+.b7 {
+    margin-right: 1px;
+    background-color: #73777b;
+    height: 4px;
+    width: 4px;
+    border-radius: 2px;
+}
+.b8 {
+    margin-right: 1px;
+    background-color: #73777b;
+    height: 4px;
+    width: 4px;
+    border-radius: 2px;
+}
+.b9 {
+    margin-right: 1px;
+    background-color: #73777b;
+    height: 4px;
+    width: 4px;
+    border-radius: 2px;
+}
+ .profile {
+    margin-left: 3px;
+ }
+ .box-profile {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+    
+ }
+ .box-profile:hover {
+    position: relative;
+    background-color: #f0f0f0;
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+ }
+.imageprofile {
+    position: absolute;
+    width: 30px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+
+.box-setting {
+    margin-left: 3px;
+ }
+ .settings-outside {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+    
+ }
+ .settings-outside:hover {
+    position: relative;
+    background-color: #f0f0f0;
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+ }
+.settings-logo {
+    position: absolute;
+    width: 28px;
+    height: 27px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 0;
+    margin-left: 12.5%;
+    margin-top: 10px;
+    width: 680px;
+    
+}
+.top-menu {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;  
+
+}
+.top-menu p{
+    font-size: 14px;
+    color: #646568;
+}
+.todas {
+    flex:1;
+    display: flex;
+    
+    
+    border-bottom: 3px solid #1a73e8;
+}
+.lupinha {
+    margin-right: 2px;
+    margin-top: 12px;
+    height: 20px;
+    
+}
+.noticias {
+    flex:1;
+    display: flex;
+    
+    
+    
+}
+.logonews {
+    margin-right: 2px;
+    margin-top: 12px;
+    height:20px;
+}
+.livros {
+    flex:1;
+    display: flex;
+  
+    
+    
+}
+
+.logobook{
+    margin-right: 2px;
+    margin-top: 12px;
+    height: 20px;
+}
+.videos{
+    flex:1;
+    display: flex;
+    
+   
+     
+}
+.logovideos{
+    margin-right: 2px;
+    margin-top: 12px;
+    height: 20px;
+}
+.imagens{
+    flex:1;
+    display: flex;
+    
+    
+    
+}
+.logoimagens{
+    margin-right: 2px;
+    margin-top: 12px;
+    height: 20px;
+}
+.mais {
+    flex:1;
+    display: flex;
+   
+    
+   
+}
+.logomais{
+    margin-right: 0px;
+    margin-top: 12px;
+    height: 20px;
+}
+.ferramentas p {
+    text-align: right;
+    
+}
+.ferramentas {
+    flex: 2;
+    
+    
+}
+.border-top {
+    border-top: 1px solid #ebebeb;
+}
+.tempodebusca p {
+    margin-top: 0;
+    font-size: 15px;
+    color: #70757a;
+
+}
+.box-profile-site {
+    display: flex;
+    
+    
+}
+.profile-site {
+    margin-left: 3px;
+}
+.profile-image {
+    position: relative;
+    width: 30px;
+    height: 30px;
+    border-radius: 40px;
+    background-color: #f0f0f0;
+}
+.earth {
+    position: absolute;
+    width: 20px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.name-site {
+  margin-left: 10px;
+}
+.name-site h1{
+    margin: 0;
+    font-size: 15px;
+    font-weight: lighter;
+  
+}
+.name-site h2 {
+    margin-top: 3px;
+    font-size: 13px;
+    color: #70757a;
+    font-weight: lighter;
+}
+.nome-da-pesquisa h1,a {
+    margin: 0;
+    text-decoration:none;
+    font-weight: lighter;      
+}
+.nome-da-pesquisa a:hover {
+    margin: 0;
+    text-decoration:underline;
+    font-weight: lighter;      
+}
+.nome-da-pesquisa h2{
+    font-weight: lighter;
+    font-size: 15px;
+    margin-top: 3px;
+    color:#646568;
+}
+
+.column {
+    flex-direction: column;
+}
+.box-pessoas-tbm-pesquisam {
+    border: 1px solid #c7c7c7;
+    border-radius: 5px;
+    width: 600px;
+}
+.box-pessoas-tbm-pesquisam h1 {
+    margin-left: 20px;
+    font-size: 15px;
+    color: #646568;
+    
+}
+.column1 {
+    flex: 1;
+}
+.column2 {
+    flex: 1;
+}
+.resultados {
+    display: flex;
+    margin-left: 20px;
+    margin-bottom: 10px;
+      
+}
+.resultados p{
+    font-size: 13px;
+    color: rebeccapurple;
+      
+}
+.resultados p:hover{
+    font-size: 13px;
+    text-decoration: underline rebeccapurple;     
+}
+.pessoas-tbm-perguntam {
+    display: flex;
+    justify-content: space-between;
+    border-bottom:1px solid #c7c7c7;
+}
+.pessoas-tbm-perguntam h1 {
+    font-weight: lighter;
+    font-size: 22px;
+    color: #161616;
+    margin-bottom: 5px;
+}
+.pessoas-tbm-perguntam h2{
+    font-weight: lighter;
+    font-size: 16px;
+    color: #646568;
+}
+.arrow {
+    height: 27px;  
+}
+legend {
+    font-weight: lighter;
+    font-size: 13px;
+    text-align: right;
+    color: #70757a;
+}
+.pesquisas-relacionadas {
+    display: flex;
+    justify-content: space-between;
+}
+.box-pesquisas-relacionadas h1 {
+    font-weight: lighter;
+    font-size: 22px;
+    color: #161616;
+    margin-bottom: 5px;
+}
+
+.pesquisa {
+    display: flex;
+    background-color: #f1f3f4;
+    border-radius: 48px;
+    width: 320px; 
+    height: 54px;
+    margin: 10px;
+    margin-left: 0;
+}
+.pesquisa p{
+    margin: 0;
+    margin-top: 12px;
+    margin-bottom: 5px;
+    margin-left: 0;
+    text-align:left;
+    color: #000;
+
+
+}
+.lupinha2 {
+    height: 20px;
+    margin: 4%;
+}
+.finalpage {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.logofinalpage {
+    width: 300px;
+}
+.logopages {
+    display: flex;
+    justify-content: space-between;
+}
+.logonext {
+    height: 30px;
+    margin-top: 88px;
+    margin-left: -20px;
+}
+.finalpage p{
+    margin: 2px;
+    margin-top: 150px;   
+}
+.num {
+    display: flex;
+    justify-content: space-between;
+    width: 207px; 
+    margin-top: -120px;
+    margin-left: 36%;
+}
+a p .soum {
+    color:#000;
+}
+
+.num p {
+    flex: 1;
+    font-size: 13px;
+    color: #1a73e8;
+}
+.num p:hover {
+    text-decoration: underline;
+}
+footer {
+    height: 100px;
+    background-color: #f2f2f2;
+}
+.footer-top {
+    margin-top: 10px;
+    display: flex;
+    height: 45px;
+    border-bottom: 1px solid #dadce0;
+}
+.footer-top p {
+    color: #70757a;
+    font-size: 16px;
+    
+}
+.brasil {
+    margin-top: -10px;
+    border-right:1px solid #dadce0;
+    width: 50px;
+
+}
+.lugarnomundo {
+    flex: 1;
+    margin-left: 15px;
+}
+.lugarnomundo p{
+    margin-top: 5px;
+    color: #3f4042;
+    font-weight: bold;
+}
+.footer-bottom {
+    display: flex;
+    height: 45px;
+}
+.footer-bottom p{
+    color: #70757a;
+    font-size: 14px;
+    margin-right: 20px;
+}
